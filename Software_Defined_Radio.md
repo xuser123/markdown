@@ -1,0 +1,38 @@
+# Software Definied Radio (SDR)
+- Nutzen Bereich eines Radio-Spektrums (Frequenzen)
+	- https://de.wikipedia.org/wiki/Frequenzband
+- Geräte-Frequenz in Datenbank der Federal Communications Commission (FCC)
+	- https://fccid.io/
+- Geräte haben "FCC Registration Number" auf Etikett / Rückseite
+- Radiotransmitter nutzen Passwörter
+	- Passwort ändert sich durchgehend ("Rolling Code")
+		- Zahlen-Reihe
+		- Wechsel nach Auslösung oder Zeit-Synchronisation
+	- Standard seit ~2014
+- Car-Hacking-Methode:
+	- Das Signal zum Abschließen wird gestört / geblockt
+		- Störsignal-Generator
+- Umfasst auch Fahrzeug-Geolokalisierung
+	- Global Positioning System (GPS)
+	- Automatic Dependent Surveillance-Broadcast (ADS)
+		- Flugzeuge, Schiffe, ... (GPS+ADS)
+- Nicht alle Antennen-Geräte können Übertragen UND Empfangen
+	- Sehr beliebtes Gerät:
+		- "HackRF One" (Link: https://greatscottgadgets.com/hackrf/one)
+	- Sehr verbreitete Software:
+		- "SDR sharp" (Link: https://airspy.com)
+		- "Universal Radio Hacker" (Link: github.com/jopohl/urh)
+		- "GQRX" (Link: gqrx.com)
+	- Sehr geeignetes Betriebssystem: "DragonOS"
+		- Tool: Osmocom (Open Source Mobile Communications)
+			- Störsignal-Generierungs-Beispiel:
+				- Syntax: osmocom_siggen_nogui -a hackrf -f 3150e6 --gaussian -x 2e6 -y 10
+					- Gerät (a): HackRF
+					- Frequenz (f): 3150 Megahertz
+					- Signal (gaussian): Zufall nach Gauß-Verteilung
+					- Bandbreite (x)= 2e6
+					- Wellenform (y)
+- Bekannter Experte: Karsten Nohl, (Kryptograph)
+	- Mitwirkung: OsmocomBB (Freie Software für Baseband-Prozessoren von Mobil-Telefonen)
+
+Quelle: https://youtu.be/5LvqU3-iINk?list=PLhfrWIlLOoKNYR8uvEXSAzDfKGAPIDB8q

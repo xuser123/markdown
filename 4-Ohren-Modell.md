@@ -1,0 +1,4 @@
+- Selbstkundgabe = Was für eine Person spricht mit mir?
+- Sachebene = Um was geht es?
+- Beziehungsebene = Wer spricht mit mir?
+- Appell-Ohr = Was muss ich tun?

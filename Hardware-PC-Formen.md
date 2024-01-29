@@ -1,0 +1,21 @@
+- Big Tower
+- Midi
+- Small Fan Factor "Slim"
+- Mini Tower
+
+**Geräteklassen**
+- Desktop-PC
+- Notebook
+- All-In-One
+	- Platz sparend
+	- Nicht aufrüstbar
+- Netbook
+- Barebone
+	- Kleiner Formfaktor
+	- Aufrüstbar
+	- Gaming
+- Tablet
+- Smartphone
+- eBook-Reader
+- Server
+- Dockingstations

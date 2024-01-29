@@ -1,0 +1,37 @@
+- Random Access Memory (RAM) benötigt Stromspannung um Daten zu speichern.
+- Dynamic RAM (DRAM)
+	- Capacitors (Ladung = 1, keine Ladung = 0), konstante Erneuerung
+	- Speicher flüchtig bei Stromunterbrechung
+- Schneller als Festplatte
+- direkt mit dem Prozessor verbunden
+- 2 oder 4 Speicher-Steckplätzen des Mainboards benutzen (empfohlen)
+- Lädt Daten eines Programms von der Festplatte
+	- gibt sie zur Verarbeitung an Prozessor weiter
+- Synchronous Dynamic RAM (SDRAM)
+	- Synchronisiert mit der System-Zeit
+	- Schneller als DRAM
+- DIMM 64 Bits / SIMM 32 Bits / Rimm 1600 MB/s
+- Double Data Rate (DDR)
+	- 184 Pins
+	- Gegensatz zu Single Data Rate (SDR):
+		- Verwendet steigende UND fallende Flanken des Taktsignals
+	- Takt und Bandbreite im Produktnamen
+		- z.B.: "DDR-333Mhz PC-2700"
+			- Takt = 333Mhz / Bandbreite = (333 x 8 Bytes) 2700 MB/s
+- DDR2
+	- Doppelt so schnelle Datenübertragung von DDR(1)
+	- Weniger Stromverbrauch
+	- 240 Pins
+- DDR3
+	- Doppelt so schnelle Datenübertragung von DDR2
+	- Nicht kombinierbar mit DDR, DDR2 oder DDR4
+	- 240 Pins, anderer Anschluss
+- DDR4
+	- Maximal 34 MB/s  !!!!!!!!!!!! <--- RICHTIG?
+	- 288 Pins
+- Error Correcting Code (ECC)
+	- Prüft Korrektheit der Prozesse eines Speichermoduls
+		- Paritätsprüfung
+	- DDR5 mit Extra-Datenleitung
+	- Fehlerhafter Bit wird zurückgegeben und neu berechnet
+	- 1 Extra-Chip auf der Platine

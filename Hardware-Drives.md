@@ -1,0 +1,25 @@
+- Solid State Drive (SSD)
+- Peripheral Component Interconnect Express (PCIe)
+	- Chipsatz-Periphärie Steckplätze
+- M2-SSD (PCIe 3.0)
+	- 2 Anschluss-Kerben
+- M2-SSD (PCIe 4.0)
+	- Linke Anschluss-Kerbe
+	- Schnellere SATA-Technik
+- 2,5 Zoll SSD
+	- SATA 3 (750 MB/s)
+	- Lautlos, stoßfest, energiearm & kühl
+- Serial ATA (SATA) 
+	- ATA = "abbreviated from Attachment"
+	- 7200 Umdrehungen
+	- 5400 Umdrehungen
+		- Langsamer aber mehr Bandbreite
+
+Storage:
+- Schicht 1: Schnelle SSD
+- Schicht 2: SSD / SATA
+	- Ungebrauchte Daten
+	- Verlagerung
+- Schicht 3: SATA
+	- Archiv
+	- Backups

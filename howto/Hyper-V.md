@@ -1,0 +1,9 @@
+- Speicherort C:/hyperV/
+- "Generation 2" auswählen
+- dynamischen Speicher auswählen
+- 2 Ghz und 2 Prozessoren auswählen
+- Switch: Domain(Privat) / Extern
+- VM-Einstellungen in "Eigenschaften"
+- PXE-Boot mit Tastendruck überspringen
+- "Sicheren Start aktivieren"-Kästchen bei Linux-VMs deaktivieren
+	- Option ist nur für Windows-VMs

@@ -1,0 +1,7 @@
+Struxnet nutzte einen speziellen Zero-Day-Exploit, um auf *Windows-basierte Computer* zuzugreifen und sich anschließend auf *Siemens-Steuerungssysteme* zu verbreiten. Der genaue Schadcode von Struxnet ist sehr komplex und so gibt es mehrere Systemdateien auf Windows-Computern, die von der Malware betroffen sein können.
+
+Ein Beispiel für eine von Struxnet betroffene Windows-Systemdatei ist *mswsock.dll*. Diese Datei wird normalerweise verwendet, um Windows-Sockets-Implementierungen zuzuweisen, die in verschiedenen Anwendungen und Diensten verwendet werden. Struxnet infizierte diese Datei, indem er sie durch eine bösartige Version ersetzte, die es ihm ermöglichte, *Netzwerkverbindungen zu überwachen* und zu kontrollieren.
+
+Ein weiteres Beispiel für eine betroffene Systemdatei ist *services.exe*. Diese Datei ist ein *Kernbestandteil* des Windows-Betriebssystems und wird verwendet, um verschiedene Dienstprogramme und Anwendungen auszuführen. Struxnet manipulierte diese Datei und fügte bösartigen Code hinzu, der es der Malware ermöglichte, sich im System zu *verstecken* und sich *selbstständig zu aktualisieren*.
+
+Es ist wichtig zu beachten, dass Struxnet nicht nur auf diese beiden Systemdateien beschränkt war. Die Malware nutzte eine Vielzahl von Exploits und Angriffstechniken, um *verschiedene Systemdateien* und Komponenten im Betriebssystem zu *manipulieren und zu kompromittieren*. Die genaue Liste der betroffenen Systemdateien hängt von der spezifischen Version von Struxnet ab, die auf einem Computer ausgeführt wird.
