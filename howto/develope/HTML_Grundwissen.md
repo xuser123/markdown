@@ -150,17 +150,17 @@ Ohne Layout wird HTML als Script ausgeführt
 	- [References](https://developer.mozilla.org) developer.mozilla.org/de **Referenzen** 
 	- [HTML Online Code Checker](https://validator.w3.org) HTML/CSS Checker von **w3**
 - Webserver:
-	- `http://fi22ii.westeurope.cloudapp.azure.com/ `
+	- `http://beispiel.westeurope.cloudapp.azure.com/ `
 - Hostadresse:
-	- `fi22ii.westeurope.cloudapp.azure.com ` 
+	- `fiji.westeurope.cloudapp.azure.com ` 
 - Benutername: Anfangsbuchstabe des Vor- und Nachnamen
-	- Bspw. Matthias Reimann = mr
-- Kennwort: Fachinformatiker2023
+	- Bspw. Matze Reinhart = mr
+- Kennwort: 12345678
 - Webordner: `~/public_html/ ` 
 	- Adresse / Zielverzeichnis
-		- `http://fi22ii.westeurope.cloudapp.azure.com/~mr ` 
+		- `http://beispiel.westeurope.cloudapp.azure.com/~mr ` 
 - Verbindung zum Webserver über SSH:
-	- `ssh mr@fi22ii.westeurope.cloudapp.azure.com ` 
+	- `ssh beispiel@beispiel.westeurope.cloudapp.azure.com ` 
 ### VSCode für SSH-Webgestaltung einrichten
 VSCode Erweiterungen:
 - German Language Pack
@@ -169,7 +169,7 @@ VSCode Erweiterungen:
 SSH Konfiguration:
 - Icon für SSH-Remote unten in der linken Seitenleiste
 - "SSH Target": 
-	- `ssh mr@fi22ii.westeurope.cloudapp.azure.com ` 
+	- `ssh beispiel@beispiel.westeurope.cloudapp.azure.com ` 
 	- `C:\Users\webdeveloper\.ssh\config ` 
 	- "Linux" auswählen
 	- "Continue" klicken (Schlüssel bestätigen)
@@ -181,4 +181,4 @@ SSH Konfiguration:
 2. Neue Datei anlegen: `index.html` 
 3. HTML-Grundgerüst schreiben
 4. Website im Browser aufrufen:
-	- `http://fi22ii.westeurope.cloudapp.azure.com/~mr ` 
+	- `http://beispiel.westeurope.cloudapp.azure.com/~mr` 
